@@ -14,9 +14,7 @@
     -o-border-radius: .8rem ;
 }
 .casa img{
-
     width: 100%;
-   max-width: 40rem;
     border-radius: .8rem .8rem 0 0 ;
     -webkit-border-radius: .8rem .8rem 0 0 ;
     -moz-border-radius: .8rem .8rem 0 0 ;
