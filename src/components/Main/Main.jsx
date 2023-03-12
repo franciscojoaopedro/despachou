@@ -1,7 +1,19 @@
+import { useState,useEffect } from "react";
 import { Casa } from "../Casa/Casa";
+import { listOfCasa } from "../../helpers/casa";
 import "./main.css"
 
 export const  Main =()=>{
+
+    const [casa,setCasas]=useState([])
+    
+   useEffect(()=>{
+        if(casa.length<=0) setCasas(()=>listOfCasa);
+   },[casa])
+
+   console.log("hei")
+   console.log(casa)
+
     return(
         <>
         <section className="s-primeira">
@@ -23,37 +35,20 @@ export const  Main =()=>{
                     <h3>Melhores casas comprar</h3>
                 </div>
                 <div className="melhores-casas cols cols-3">
-                        <Casa/>
-                    <div className="casa-1">
-                        <img src="https://images.pexels.com/photos/5563473/pexels-photo-5563473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""/>
-                        <p>Pink Villa</p>
-                        <p>Talatona</p>
-                        <p>5000 KZ/ por mêS</p>
-                    </div>
-                    <div className="casa-1">
-                        <img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""/>
-                        <p>Pink Villa</p>
-                        <p>Talatona</p>
-                        <p>5000 KZ/ por mêS</p>
-                    </div>
-                    <div className="casa-1">
-                        <img src="https://images.pexels.com/photos/7031407/pexels-photo-7031407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""/>
-                        <p>Pink Villa</p>
-                        <p>Talatona</p>
-                        <p>5000 KZ/ por mêS</p>
-                    </div>
-                    <div className="casa-1">
-                        <img src="https://images.pexels.com/photos/5563473/pexels-photo-5563473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""/>
-                        <p>Pink Villa</p>
-                        <p>Talatona</p>
-                        <p>5000 KZ/ por mêS</p>
-                    </div>
-                    <div className="casa-1">
-                        <img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""/>
-                        <p>Pink Villa</p>
-                        <p>Talatona</p>
-                        <p>5000 KZ/ por mêS</p>
-                    </div>
+                        
+                    {
+                        casa.map((item,index)=>(
+                            <Casa
+                            key={index}
+                            nome={item.nomecasa}
+                            local={item.local}
+                            imagem={item.imagem}
+                            preco={item.preço}
+                            status={item.status}
+                            />
+                        ))
+                    }
+                  
                 </div>
             </div>
         </section>
