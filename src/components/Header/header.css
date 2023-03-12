@@ -1,0 +1,56 @@
+header{
+    width: 100%;
+    padding: 0.8rem 1.5rem;
+    background-color: #fafafa;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lado-esquerdo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.logo p{
+    color: #0a6348;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.logo p span{
+    color: #cecece;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+ul li:first-child{
+    color: #0a6348;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+ul li{
+    font-weight: 500;
+    color: #cecece;
+    font-size: 1.6rem;
+}
+
+
+.btn-entrar{
+    padding: .3rem 1.3rem;
+    border: none;
+    outline: 1px solid #0a6348;
+    background-color: #0a6348;
+    color: #fafafa;
+    border-radius: .4rem;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
