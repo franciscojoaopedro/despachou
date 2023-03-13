@@ -34,8 +34,7 @@ export const  Main =()=>{
                 <div className="titulo-melhor-casa">
                     <h3>Melhores casas comprar</h3>
                 </div>
-                <div className="melhores-casas cols cols-3">
-                        
+                <div className="melhores-casas cols cols-3">            
                     {
                         casa.map((item,index)=>(
                             <Casa
