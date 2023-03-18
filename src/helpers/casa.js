@@ -60,41 +60,41 @@ export const listOfCasa=[
         "local": "Nova Vida",
         "preço": "250.000.00",
         "imagem": "https://images.pexels.com/photos/1643389/pexels-photo-1643389.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "status": "Aluguer"
+        "status": "Arrendar"
     },
     {
         "nomecasa": "Casa do Ngunga Dev",
         "local": "Talatona",
         "preço": "600.000.00",
         "imagem": "https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "status": "Aluguer"
+        "status": "Arrendar"
     },
     {
         "nomecasa": "Casa JS",
         "local": "Talatona",
         "preço": "250.000.00",
         "imagem": "https://images.pexels.com/photos/209296/pexels-photo-209296.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "status": "Aluguer"
+        "status": "Arrendar"
     },
     {
         "nomecasa": "Casa PhP",
         "local": "Benfica",
         "preço": "120.000.00",
         "imagem": "https://images.pexels.com/photos/963715/pexels-photo-963715.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "status": "Aluguer"
+        "status": "Arrendar"
     },
     {
         "nomecasa": "Luxo  New",
         "local": "Nova Vida",
         "preço": "50.000.00",
         "imagem": "https://img.freepik.com/fotos-premium/renderizacao-3d-de-uma-grande-casa-moderna-contemporanea-em-madeira-e-concreto_190619-1484.jpg?w=1380",
-        "status": "Aluguer"
+        "status": "Arrendar"
     },
     {
         "nomecasa": "Casa Dev's",
         "local": "Talatona",
         "preço": "320.000.00",
         "imagem": "https://img.freepik.com/fotos-premium/o-exterior-de-uma-casa-de-um-andar-a-fachada-da-casa-e-feita-de-ripas-de-madeira-design-de-arquitetura-edificio-midia-mista_99433-8291.jpg",
-        "status": "Aluguer"
+        "status": "Arrendar "
     }
 ]

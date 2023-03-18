@@ -32,6 +32,44 @@ section{
     font-size: 1.8rem;
 }
 
+
+
+
+
+
+.campo-pesquisa{
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    border: 1px solid #4140409f;
+    box-shadow: 0 0 15px #ffff;
+    border-radius: .8rem;
+    -webkit-border-radius: .8rem;
+    -moz-border-radius: .8rem;
+    -ms-border-radius: .8rem;
+    -o-border-radius: .8rem;
+}
+.campo-pesquisa input{
+    width: 100%;
+    border: none;
+    outline: #121212;
+}
+.campo-pesquisa button{
+    border: none;
+    background-color: #0a6348;
+    color: #fafafa;
+    padding: .8rem 1.5rem;
+    cursor: pointer;
+    border-radius: .8rem;
+    -webkit-border-radius: .8rem;
+    -moz-border-radius: .8rem;
+    -ms-border-radius: .8rem;
+    -o-border-radius: .8rem;
+}
+
 .s-lado-direito img{
     width: 40rem;
     border-radius: .8rem;
